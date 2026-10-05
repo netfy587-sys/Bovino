@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Discover More Today</title>
+<style>
+:root{--bg:#efe9df;--fg:#2a2118;--mut:#625546;--card:#f9f5ee;--ac:#9a5a2a;--hl:#2d4a5e;--ac2:#e2d6c1;--ln:rgba(42,33,24,.2);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#17130f;--fg:#efe5d3;--mut:#b5a58c;--card:#211b15;--ac:#e0a066;--hl:#8fb4cc;--ac2:#2b2218;--ln:rgba(239,229,211,.2)}}
+:root[data-theme="dark"]{--bg:#17130f;--fg:#efe5d3;--mut:#b5a58c;--card:#211b15;--ac:#e0a066;--hl:#8fb4cc;--ac2:#2b2218;--ln:rgba(239,229,211,.2)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--fg);font:18px/1.8 "Book Antiqua",Palatino,"Times New Roman",serif}
+.w{max-width:1000px;margin:auto;padding:0 20px}
+nav{display:flex;justify-content:space-between;align-items:center;padding:18px 0;flex-wrap:wrap;gap:8px;border-bottom:3px double var(--ln)}
+nav b{font:700 26px "Book Antiqua",Palatino,serif;color:var(--ac);letter-spacing:.14em;text-transform:uppercase}nav a{color:var(--mut);text-decoration:none;font:13px system-ui;letter-spacing:.08em;text-transform:uppercase;margin-left:18px}
+.hero{display:grid;grid-template-columns:1fr 1fr;gap:34px;align-items:center;padding:42px 0 30px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:34px;align-items:center}
+@media(max-width:720px){.hero,.two{grid-template-columns:1fr}}
+h1{font:700 clamp(36px,6.5vw,58px)/1.06 "Book Antiqua",Palatino,serif;margin:0 0 14px}
+h2{font:700 30px/1.2 "Book Antiqua",Palatino,serif;margin:0 0 10px}h3{margin:6px 0 2px;font-size:20px}
+p{margin:0 0 14px;color:var(--mut)}
+.tag{display:block;font:700 12px system-ui;letter-spacing:.22em;text-transform:uppercase;color:var(--hl);margin-bottom:8px}
+.btn{display:inline-block;background:var(--hl);color:var(--bg);padding:13px 28px;font:700 14px system-ui;letter-spacing:.1em;text-transform:uppercase;text-decoration:none}
+svg{width:100%;height:auto;display:block}
+.frame{border:1px solid var(--ln);padding:8px;background:var(--card)}
+section{padding:42px 0}
+.tl{margin-top:22px;border-left:3px solid var(--ac);padding-left:0}
+.ev{display:grid;grid-template-columns:130px 1fr;gap:18px;align-items:center;padding:14px 0 14px 22px;position:relative;border-bottom:1px solid var(--ln)}
+.ev:before{content:"";position:absolute;left:-10px;top:50%;width:17px;height:17px;border-radius:50%;background:var(--ac);border:3px solid var(--bg);transform:translateY(-50%)}
+.ev .frame{padding:4px}.ev p{margin:0}
+@media(max-width:520px){.ev{grid-template-columns:90px 1fr}}
+.g{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px;margin-top:18px}
+.st{background:var(--card);border:1px solid var(--ln);border-top:4px solid var(--ac);padding:18px}
+.st i{font:700 26px "Book Antiqua",serif;font-style:normal;color:var(--hl)}
+.band{background:var(--hl);color:#fff;padding:46px 26px;text-align:center}
+.band h2,.band p,.band .tag{color:#fff}
+.pills{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:16px}
+.pills span{border:1px solid rgba(255,255,255,.7);padding:5px 14px;font:13px system-ui;color:#fff}
+.art{max-width:720px;margin:auto}.art h3{margin-top:26px}
+.art>p:first-of-type:first-letter{float:left;font:700 64px/0.9 "Book Antiqua",serif;color:var(--ac);padding:6px 10px 0 0}
+blockquote{margin:24px 0;padding:8px 24px;border-left:4px solid var(--ac);font:italic 22px "Book Antiqua",serif;color:var(--fg)}
+ul.l{padding-left:20px;color:var(--mut)}ul.l li{margin-bottom:8px}
+details{background:var(--card);border:1px solid var(--ln);padding:14px 20px;margin-bottom:12px}
+summary{cursor:pointer;font-weight:700}details p{margin:10px 0 0}
+footer{padding:34px 0;text-align:center;color:var(--mut);font:13px system-ui;letter-spacing:.06em;border-top:3px double var(--ln)}
+</style></head><body><div class="w">
+
+<nav><b>Bovino</b><div><a href="#collection">Eras</a><a href="#steps">Steps</a><a href="#inside">Reading</a><a href="#faq">Questions</a></div></nav>
+
+<div class="hero"><div>
+<span class="tag">Discover More Today</span>
+<h1>Take The Next Step</h1>
+<p>Welcome to Bovino, a calm reading space about history, inventions and the people who changed the world. Explore New Choices in ideas from long ago, and Discover New Options for what to learn next.</p>
+<a class="btn" href="#collection">Start Exploring Today</a></div>
+<div class="frame"><svg viewBox="0 0 380 300"><rect width="380" height="300" fill="#e8c88f"/><circle cx="300" cy="70" r="36" fill="#f6e1a8"/><path d="M0 250h380v50H0Z" fill="#c99a5a"/><path d="M60 250L170 90l110 160Z" fill="#b57a3c"/><path d="M170 90l110 160h-50L170 140Z" fill="#8f5a28"/><path d="M230 250L300 160l70 90Z" fill="#c68b4a"/><path d="M20 120q14-10 28 0M70 90q12-8 24 0" stroke="#2a2118" stroke-width="3" fill="none"/></svg></div></div>
+
+<section id="collection"><span class="tag">Browse Our Collection</span><h2>Something New Awaits</h2>
+<p>Explore Popular Choices along a timeline of six history topics, then pick one and read at your own pace.</p>
+<div class="tl">
+<div class="ev"><div class="frame"><svg viewBox="0 0 120 90"><rect width="120" height="90" fill="#e8c88f"/><path d="M14 80L60 14l46 66Z" fill="#b57a3c"/><path d="M60 14l46 66H84L60 40Z" fill="#8f5a28"/></svg></div><div><h3>Ancient Civilizations</h3><p>Egypt, Greece, Rome and the Indus valley: how early cities began.</p></div></div>
+<div class="ev"><div class="frame"><svg viewBox="0 0 120 90"><rect width="120" height="90" fill="#f4e3a8"/><circle cx="60" cy="40" r="22" fill="#fff6c9" stroke="#9a5a2a" stroke-width="3"/><path d="M52 62h16v10H52Z" fill="#9a5a2a"/><path d="M54 40l6 8 6-8" stroke="#e0a030" stroke-width="3" fill="none"/></svg></div><div><h3>Great Inventions</h3><p>The wheel, the lamp and the printing press, and how they changed daily life.</p></div></div>
+<div class="ev"><div class="frame"><svg viewBox="0 0 120 90"><rect width="120" height="90" fill="#bcd9e8"/><path d="M0 70q15-8 30 0t30 0 30 0 30 0V90H0Z" fill="#2d4a5e"/><path d="M26 62h68l-10 12H36Z" fill="#7a4a22"/><path d="M60 62V18" stroke="#4a2f15" stroke-width="3"/><path d="M60 20l30 34H60Z" fill="#fff"/><path d="M60 26L38 54h22Z" fill="#f2e6cc"/></svg></div><div><h3>Explorers</h3><p>Voyages across seas and deserts that connected faraway lands.</p></div></div>
+<div class="ev"><div class="frame"><svg viewBox="0 0 120 90"><rect width="120" height="90" fill="#d9d5cf"/><g fill="#8a8479"><rect x="22" y="36" width="76" height="46"/><rect x="22" y="26" width="14" height="12"/><rect x="44" y="26" width="14" height="12"/><rect x="66" y="26" width="14" height="12"/><rect x="88" y="26" width="10" height="12"/></g><path d="M52 82V60q8-14 16 0v22Z" fill="#4a3a2a"/></svg></div><div><h3>Castles &amp; Buildings</h3><p>Forts, temples and towers, and the clever ways they were built.</p></div></div>
+<div class="ev"><div class="frame"><svg viewBox="0 0 120 90"><rect width="120" height="90" fill="#e6dccb"/><circle cx="46" cy="46" r="22" fill="#9a5a2a"/><circle cx="46" cy="46" r="8" fill="#e6dccb"/><g stroke="#9a5a2a" stroke-width="7"><path d="M46 16v8M46 68v8M16 46h8M68 46h8M25 25l6 6M61 61l6 6M25 67l6-6M61 31l6-6"/></g><circle cx="86" cy="62" r="14" fill="#2d4a5e"/><circle cx="86" cy="62" r="5" fill="#e6dccb"/></svg></div><div><h3>Simple Machines</h3><p>Levers, pulleys and gears that make hard work easier.</p></div></div>
+<div class="ev"><div class="frame"><svg viewBox="0 0 120 90"><rect width="120" height="90" fill="#f2e4c4"/><rect x="24" y="14" width="72" height="62" rx="4" fill="#fff8e6" stroke="#9a5a2a" stroke-width="3"/><path d="M36 32h48M36 44h48M36 56h30" stroke="#625546" stroke-width="3"/><circle cx="82" cy="60" r="6" fill="#a02a2a"/></svg></div><div><h3>Writing &amp; Printing</h3><p>From clay tablets to books: the long story of recording ideas.</p></div></div>
+</div></section>
+
+<section><span class="tag">Simple &amp; Convenient</span><h2>See What’s Available</h2>
+<p>Discover Quality Choices in three easy reading styles, each written to be short and clear.</p>
+<div class="g">
+<div class="st"><h3>Short Reads</h3><p>Five-minute articles you can finish in a single sitting.</p></div>
+<div class="st"><h3>Picture Guides</h3><p>Simple drawings that show how an old tool or building worked.</p></div>
+<div class="st"><h3>Quick Facts</h3><p>Small notes to remember about each era and its people.</p></div>
+</div></section>
+
+<section><div class="two">
+<div class="frame"><svg viewBox="0 0 400 280"><rect width="400" height="280" fill="#2d4a5e"/><circle cx="200" cy="140" r="96" fill="#f6ecd2" stroke="#e0a066" stroke-width="5"/><g stroke="#2a2118" stroke-width="3" stroke-linecap="round"><path d="M200 140V82"/><path d="M200 140l36 22"/></g><circle cx="200" cy="140" r="6" fill="#9a5a2a"/><g fill="#9a5a2a"><circle cx="200" cy="56" r="4"/><circle cx="284" cy="140" r="4"/><circle cx="200" cy="224" r="4"/><circle cx="116" cy="140" r="4"/></g></svg></div>
+<div><span class="tag">Find Your Next Favorite</span><h2>Discover Your Next Pick</h2>
+<p>At Bovino, Your Choice, Your Way means you pick the subject and the pace. Find Your Best Match, or Find Your Perfect Match, among short guides, history notes and simple lessons, and Look What’s New each week.</p>
+<p>Your Search Ends Here when curiosity leads the way. Worth a Look Today: one short article, one new idea.</p></div></div></section>
+
+<section><span class="tag">Explore Our Latest Offers</span><h2>Find What You Need</h2>
+<p>Find the Right Solution to everyday history questions with these short reading guides.</p>
+<div class="g">
+<div class="st"><h3>Who Built the Pyramids?</h3><p>The workers, tools and planning behind the great stone tombs.</p></div>
+<div class="st"><h3>How Did Paper Begin?</h3><p>A simple story of how people moved from clay and bark to paper.</p></div>
+<div class="st"><h3>What Is a Calendar?</h3><p>How early people tracked the moon and sun to measure time.</p></div>
+<div class="st"><h3>Why Did Trade Routes Matter?</h3><p>Roads and sea lanes that carried goods and ideas between lands.</p></div>
+</div></section>
+
+<section id="steps"><span class="tag">Discover Something New</span><h2>Make Every Click Count</h2>
+<p>Learn More Online with four simple steps. Get Started Today.</p>
+<div class="g">
+<div class="st"><i>I</i><h3>Pick an Era</h3><p>Begin with a time or invention you are curious about.</p></div>
+<div class="st"><i>II</i><h3>Read Calmly</h3><p>Take your time. Slow reading helps facts settle in memory.</p></div>
+<div class="st"><i>III</i><h3>Write One Line</h3><p>Summarise the main idea in your own words.</p></div>
+<div class="st"><i>IV</i><h3>Look Again</h3><p>Return after a few days and see how much you remember.</p></div>
+</div></section>
+
+<section id="inside"><div class="art"><span class="tag">Quality You Can Trust</span><h2>See What’s Inside: Why History Matters</h2>
+<p>History is the story of how people lived, worked and solved problems. By reading about the past, we see where our tools, towns and ideas came from, and we understand today a little better.</p>
+<blockquote>The past is a teacher that never runs out of lessons.</blockquote>
+<h3>Inventions solve problems</h3>
+<p>Most great inventions began as simple answers to daily needs. The wheel moved heavy loads, the lamp pushed back the dark and paper made it easy to share knowledge.</p>
+<h3>People learn from each other</h3>
+<p>Ideas travel along roads and sea routes. Numbers, medicines, crops and stories moved across the world, and each land added something of its own.</p>
+<h3>Buildings tell stories</h3>
+<p>Old temples, forts and bridges show what people valued and how clever their methods were. Their stones remind us how patient work lasts for centuries.</p>
+<h3>Curiosity keeps history alive</h3>
+<p>Every family and town has a history worth asking about. Explore New Possibilities by asking an elder about an old tool or tradition and writing down what you hear.</p></div></section>
+
+<section id="faq"><div class="art"><span class="tag">Explore Your Options</span><h2>Questions Readers Ask</h2>
+<details><summary>What is Bovino?</summary><p>It is a reading and learning space with simple articles about ancient civilizations, inventions, explorers, buildings, machines and writing.</p></details>
+<details><summary>Where should I begin?</summary><p>Open any topic that sounds interesting and read one short piece. There is no fixed order.</p></details>
+<details><summary>How much time do I need?</summary><p>Ten minutes a day is enough. Small, regular sessions work better than rare long ones.</p></details>
+<details><summary>Does it work on my phone?</summary><p>Yes. The page fits phones, tablets and computers and follows your light or dark screen setting.</p></details>
+</div></section>
+
+<section><div class="band"><span class="tag">A New Choice Awaits</span><h2>Make A Choice Today</h2>
+<p>Learning is a series of small decisions. Find Something Better to do with a spare ten minutes, and Explore What’s New inside Bovino whenever you like. Explore New Choices, then Discover More Options.</p>
+<div class="pills"><span>Discover New Options</span><span>Find Your Best Match</span><span>Look What’s New</span><span>There’s More to Explore</span><span>Explore What’s Trending</span><span>See What Everyone Loves</span><span>Explore. Choose. Enjoy.</span><span>Visit Our Website Today</span></div></div></section>
+
+<section><div class="art"><span class="tag">Take a Look Today</span><h2>Simple History Habits</h2>
+<ul class="l"><li>Read about one invention or era each week.</li><li>Ask an elder about how things were done long ago.</li><li>Keep a small notebook of dates and discoveries.</li><li>Visit a local old building or museum when you can.</li><li>Share one new fact with a friend or family member.</li></ul></div></section>
+
+<section style="text-align:center"><h2>Ready to Discover More?</h2>
+<p>Bovino is here whenever you want to read, learn and grow.</p>
+<a class="btn" href="#collection">Make Your Next Move</a></section>
+
+<footer>© Bovino · A place to read and learn</footer>
+</div></body></html>
